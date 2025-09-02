@@ -3,6 +3,7 @@ declare class Carro {
     private ano;
     private cor;
     constructor(_modelo: string, _ano: number, _cor: string);
+    getModelo(): string;
     acelerar(velocidade: number): void;
     ligar(): boolean;
 }

@@ -2,7 +2,7 @@ class Carro {
     private modelo: string;
     private ano: number;
     private cor: string;
-
+    
     constructor(
         _modelo: string,
         _ano: number,
@@ -11,7 +11,32 @@ class Carro {
         this.modelo = _modelo;
         this.ano = _ano;
         this.cor =_cor;
+
     }
+
+// métodos GET e SET (encapsulamento)
+public getModelo(): string{ 
+        return this.modelo;
+    }    
+public setModelo(_modelo: string): void{
+    this.modelo = _modelo;
+}
+
+public getAno(): number{
+    return this.ano;
+}
+public setAno(_ano: number): void{
+    this.ano = _ano
+}
+
+public getCor(): string{
+    return this.cor;
+}
+public setCor(_cor: string): void{
+    this.cor = _cor;
+}
+
+
     public acelerar(velocidade: number): void {
         console.log(`${this.modelo} está acelerando a ${velocidade} km/h`)
     }
