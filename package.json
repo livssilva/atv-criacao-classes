@@ -1,0 +1,19 @@
+{
+  "name": "aula-classes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Lívia Azevedo",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "typescript-require": "^0.3.0"
+  }
+}
